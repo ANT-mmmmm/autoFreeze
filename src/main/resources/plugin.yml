@@ -1,0 +1,7 @@
+name: AutoFreezePlugin
+version: '1.1'
+main: com.outlook.antmmmmm.AutoFreeze
+api-version: '1.21'
+commands:
+  freeze.settings:
+    description: 'Freeze the game when there is nobody here. And unfreeze when a player login.'
