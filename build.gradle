@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.outlook.antmmmmm'
-version = 'alpha-v1.1'
+version = 'v1.1'
 
 repositories {
     mavenCentral()

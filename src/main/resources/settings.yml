@@ -1,17 +1,11 @@
-# 配置文件
+# 配置文件 autoFreeze v1.1
 # 设为0即禁用
 # 单位：游戏刻 tick (1/20s)
-# 在日志中和控制台记录在线人数的时间间隔
 # Configuration File
 # Set to 0 to disable
 # Unit: Game tick (1/20s)
+
+# 在日志中和控制台记录在线人数的时间间隔
 # Interval for logging the number of online players in the console and logs
 logPlayerCountInterval: 0
 
-# 监测玩家人数而冻结/解冻游戏的频率
-# 该值越小 对游戏公平性影响越小 <=10t 几乎不可能作弊
-# 该值不宜 >20t
-# Frequency for monitoring player counts to freeze/unfreeze the game
-# The smaller the value, the less impact on game fairness (<=10t is almost impossible to cheat)
-# The value should not be greater than 20t
-playerCountCheckInterval : 10
